@@ -4,11 +4,8 @@ Metadata:
   AWS::ServerlessRepo::Application:
     Name: my-app
     Description: hello world
-    Author: user1
+    Author: Anjan
     SpdxLicenseId: Apache-2.0
-    LicenseUrl: LICENSE.txt
-    ReadmeUrl: README.md
-    Labels: ['tests']
     HomePageUrl: https://github.com/user1/my-app-project
     SemanticVersion: 0.0.1
     SourceCodeUrl: https://github.com/anjanragh21/smartphotoslambda
