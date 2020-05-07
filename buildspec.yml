@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+        python: 3.8
+  build:
+    commands:
+      - pip install --upgrade pip
+      - pip install pipenv --user
+      - pipenv install awscli aws-sam-cli
+      - pipenv install elasticsearch
+      - pipenv install certifi
+      - pipenv run sam package --template-file template.yml --s3-bucket bucketname --output-template-file packaged-template.yml
+artifacts:
+  files:
+    - packaged-template.yml
