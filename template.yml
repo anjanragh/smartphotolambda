@@ -15,3 +15,9 @@ Resources:
     Properties:
       Handler: lf1.lambda_handler
       Runtime: python3.7
+    VpcConfig:
+        SecurityGroupIds:
+          - sg-80263bde
+        SubnetIds:
+          - subnet-204bb258
+          - subnet-55d9c31e
