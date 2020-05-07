@@ -6,3 +6,4 @@ Resources:
     Properties:
       Handler: lf1.lambda_handler
       Runtime: python3.x
+      CodeUri: ./
