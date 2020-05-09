@@ -8,15 +8,11 @@ Metadata:
     SpdxLicenseId: Apache-2.0
     HomePageUrl: https://github.com/user1/my-app-project
     SemanticVersion: 0.0.1
-    SourceCodeUrl: https://github.com/anjanragh21/smartphotoslambda
+    SourceCodeUrl: https://github.com/anjanragh/smartphotoslambda
 Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: lf1
       Handler: lf1.lambda_handler
       Runtime: python3.7
-    VpcConfig:
-        SecurityGroupIds:
-          - sg-80263bde
-        SubnetIds:
-          - subnet-0db67d50
