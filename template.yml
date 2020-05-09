@@ -13,6 +13,5 @@ Resources:
   lf1:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: lf1
       Handler: lf1.lambda_handler
       Runtime: python3.7
