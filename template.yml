@@ -10,7 +10,7 @@ Metadata:
     SemanticVersion: 0.0.1
     SourceCodeUrl: https://github.com/anjanragh/smartphotoslambda
 Resources:
-  HelloWorldFunction:
+  lf1:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: lf1
